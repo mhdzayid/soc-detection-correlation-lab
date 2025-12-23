@@ -164,14 +164,17 @@ graph TD
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/mhdzayid/soc-detection-correlation-lab
+```
+### 2. Move to the Directory
+```bash
+cd soc-detection-correlation-lab
+```
 
-command: cd soc-detection-correlation-lab
-
-dependency:
-  - matplotlib
-install:
-  command: pip install matplotlib
-
-run:
-  command: python main.py
-
+### 2. Move to the Directory
+```bash
+pip install matplotlib
+```
+### 3. Run the main
+```bash
+ python main.py
+```
