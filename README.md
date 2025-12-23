@@ -44,6 +44,7 @@ graph TD
     D --> F[correlate.py: Scoring]
     E --> F
     F --> G[ui.py: Visualization]
+    F --> H[main.py]
 ```
 
 File Overview
