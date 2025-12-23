@@ -44,45 +44,45 @@ graph TD
     D --> F[correlate.py: Scoring]
     E --> F
     F --> G[ui.py: Visualization]
-    F --> H[main.py]
+    G --> H[main.py]
 ```
 
 File Overview
 
-logs.txt
+###logs.txt
 [Sample dataset used to drive detections]
--Provides mixed log formats (web, firewall, Windows, SSH, EDR) in one file
+ Provides mixed log formats (web, firewall, Windows, SSH, EDR) in one file
 -Lets the pipeline demonstrate multi-source detection + correlation
 -Acts as a reproducible test input for anyone cloning the repo
 
-main.py
+###main.py
 [Entry point for the project]
 -Loads logs
 -Runs detection modules
 -Correlates detection outputs
 -Passes results to the UI layer
 
-utils.py
+###utils.py
 [Log parsing and normalization]
 -Parse multiple log formats (web, firewall, SSH, Windows, EDR)
 -Normalize timestamps and entities
 -Ensure consistent event structure for detections
 
-detect_rules.py
+###detect_rules.py
 [Rule-based detection engine]
 -Apply explicit detection logic
 -Emit structured detection signals
 -Preserve evidence and timestamps
 -Outputs rule signals, not final alerts.
 
-detect_anomaly.py
+###detect_anomaly.py
 [Anomaly-based detection engine]
 -Track entity behavior in sliding time windows
 -Detect relative deviations (bursts, cross-surface activity)
 -Generate contextual anomaly signals
 
 
-correlate.py
+###correlate.py
 [Signal correlation and scoring layer]
 -Combine rule and anomaly signals
 -Aggregate by entity
@@ -90,7 +90,7 @@ correlate.py
 -Assign severity based on combined evidence
 
 
-ui.py
+###ui.py
 [Presentation and visualization layer]
 -Event-based alert view (what fired and why)
 -Case-based view (entity risk over time)
