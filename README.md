@@ -77,4 +77,101 @@ graph TD
     E --> F
     F --> G[ui.py<br/>Visualization]
     G --> H[main.py]
+```
+
+---
+
+## File Overview
+
+### `logs.txt`
+**Sample dataset used to drive detections**
+
+- Contains mixed log formats:
+  - Web
+  - Firewall
+  - Windows
+  - SSH
+  - EDR-style events
+- Enables multi-source detection and correlation
+- Serves as a reproducible test input for anyone cloning the repository
+
+---
+
+### `main.py`
+**Pipeline entry point**
+
+- Loads and parses logs
+- Runs detection modules
+- Correlates detection outputs
+- Passes results to the UI layer
+
+> No detection logic exists here by design.
+
+---
+
+### `utils.py`
+**Log parsing and normalization**
+
+- Parses multiple log formats into a unified event schema
+- Normalizes timestamps and entity identifiers
+- Ensures consistent structure for all detection engines
+
+---
+
+### `detect_rules.py`
+**Rule-based detection engine**
+
+- Applies explicit detection logic
+- Emits structured detection signals
+- Preserves timestamps and evidence
+- Outputs signals, not final alerts
+
+---
+
+### `detect_anomaly.py`
+**Anomaly-based detection engine**
+
+- Tracks entity behavior in sliding time windows
+- Detects relative deviations:
+  - Activity bursts
+  - Cross-surface behavior
+- Generates contextual anomaly signals
+
+---
+
+### `correlate.py`
+**Signal correlation and scoring layer**
+
+- Combines rule and anomaly signals
+- Aggregates by entity
+- Computes cumulative risk scores
+- Assigns severity based on combined evidence
+
+---
+
+### `ui.py`
+**Presentation and visualization layer**
+
+- Event-based alert view (what fired and why)
+- Case-based view (entity risk over time)
+- Anomaly explanation graphs
+- Correlation contribution visualizations
+
+---
+
+## How to Run
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/mhdzayid/soc-detection-correlation-lab
+
+command: cd soc-detection-correlation-lab
+
+dependency:
+  - matplotlib
+install:
+  command: pip install matplotlib
+
+run:
+  command: python main.py
 
